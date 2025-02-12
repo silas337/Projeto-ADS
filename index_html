@@ -2,9 +2,6 @@
 <html lang="pt-br">
 
     <head>
-    
-      <div class="div2"></div>
-      <div class="div3"></div>
       <div class="div4"></div> http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -15,7 +12,7 @@
             
       <style>
         .style {
-           width:2020px;
+           width:1500px;
            height:750px;
            border: 5px solid rgb(0, 0, 0) ;
            padding: 250px ;
@@ -26,50 +23,64 @@
            transform: translate(-50%,-50%);
            border-radius: 15px;
            background-image: linear-gradient(rgba(141, 8, 202, 0.633),rgba(8, 197, 8, 0.69));
-
-
-
         }
       
         .cabeça{
-           width:2020px;
+           width:1500px;
            height:80px;
-           border:7px solid purple ;
+           border:2px solid purple ;
            padding:100px;
            margin-top: -235px;
-           margin-right: ;       
-           margin-left: -200px;
+           margin-right:;       
+           margin-left:
            background-color: darkgrey;
         }
          .joelho{
-           width: 1900px;
-           height: 620px;
+           width: 2230px;
+           height:720px;
            border:2px solid rgb(17, 14, 172);
            padding: 0;
+           margin-left: -200px;
          }
 
          .epé{
-           width: 1900px;
-           height: 150px;
-           border: 3px solid green;
+          width: 2200px;
+           height:120px;
+           border:90px solid rgb(17, 14, 172);
+           padding: 0;
+          }  
+                                                     
+        .esquerda{
+          width: 150px;
+           height: 720px;
+           border: 2px solid purple;
            padding: 0; 
-
-         }
+        }
+        .centro{
+          width: 2230px;
+          height: 200px;
+          border: 1px solid purple;
+        }
 
 
 
       </style>
-        
     </head>
 <body>
   <div class="style">
       <div class="cabeça"> </div>
 
-      <div class="joelho"> </div>
-  
-      <div class="epé"></div>
+      <div class="joelho"> 
       
-      <div class="fundo"></div>
+      <div class="esquerda"></div>
+        <div class="centro"></div>
+        <div class="direita"></div>
+        
+        </div>
+
+      <div class="pé"></div>
+      
+      <div class=""></div>
     </div>
     
     
