@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
     <head>
-      <div class="div4"></div> http-equiv="X-UA-Compatible" content="IE=edge">
+      <div class="div4"></div> <http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
       <title>Projeto dos Fellas</title>
@@ -12,8 +12,8 @@
             
       <style>
         .style {
-           width:1500px;
-           height:750px;
+           width: 1390px;
+           height:430px;
            border: 5px solid rgb(0, 0, 0) ;
            padding: 250px ;
            position: absolute;
@@ -26,20 +26,18 @@
         }
       
         .cabeça{
-           width:1500px;
-           height:80px;
-           border:2px solid purple ;
-           padding:100px;
-           margin-top: -235px;
-           margin-right:;       
-           margin-left:
-           background-color: darkgrey;
-        }
+             width:1900px;
+                height:200px;
+                border:2px solid rgb(8, 159, 247);
+                padding:0px;
+                margin-left:;
+        } 
+
          .joelho{
-           width: 2230px;
+           width: 1700px;
            height:720px;
-           border:2px solid rgb(17, 14, 172);
-           padding: 0;
+           border:2px solid rgb(14, 172, 14);
+           padding: 660;
            margin-left: -200px;
          }
 
@@ -48,18 +46,21 @@
            height:120px;
            border:90px solid rgb(17, 14, 172);
            padding: 0;
+           margin-left: -200px;
           }  
                                                      
         .esquerda{
           width: 150px;
            height: 720px;
-           border: 2px solid purple;
+           border: 2px solid rgb(212, 76, 212);
            padding: 0; 
+           margin-left: -0px;
         }
-        .centro{
-          width: 2230px;
+        .centro{    
+          width: 1900px;
           height: 200px;
-          border: 1px solid purple;
+          border: 2px solid rgb(230, 6, 6);
+          padding: 0px;
         }
 
 
@@ -86,6 +87,3 @@
     
   </body>
   </html>
-  
-  
- .div$*3
