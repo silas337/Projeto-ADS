@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+      <div class="div4"></div> 
+      <http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+      <title>Projeto dos Fellas</title>
+      <link rel="stylesheet" type="text/css" href=""> 
+      <meta charset="UTF-8">
+      <script src="jquery.js"></script>
+            
+      <style>
+        .site{
+                width:940px;
+                height:600px;
+                border:2px solid rgb(137, 0, 250);
+                padding:0px;
+            }
+            .header{
+                width:938px;
+                height:50px;
+                border:2px solid rgb(151, 8, 247);
+                padding:0px;
+            }
+            .main{
+                width:938px;
+                height:500px;
+                border:2px solid rgb(94, 1, 245);
+                padding:0px;
+            }
+            .footer{
+                width:938px;
+                height:40px;
+                border:2px solid rgb(117, 6, 243);
+                padding:0px;
+            }
+            .esquerda{
+                width:60px;
+                height:500px;
+                border:2px solid rgb(129, 4, 231);
+                display:inline-block;
+                float:right;
+            }
+             .centro{  
+                width:800px;
+                height:500px;
+                border:2px solid rgb(106, 5, 221);
+                display:inline-block;
+                float:right;
+             }
+            
+        
+        </style>
+    </head>
+    <body>
+        <div class="site">
+            <div class="header"> </div>
+            
+            <div class="main"> 
+                
+             <div class="esquerda"></div>
+        
+             <div class="centro"></div>
+        
+             <div class="direita"></div> 
+             <div class="fundo"></div>
+        </div>
+
+      <div class="footer"></div>
+      
+    </div>
+    
+    
+  </body>
+  </html>
+  
+  
 
