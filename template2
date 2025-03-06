@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+      <div class="div4"></div> 
+      <http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+      <title>Projeto ADS</title>
+      <link rel="stylesheet" type="text/css" href=""> 
+      <meta charset="UTF-8">
+      <script src="jquery.js"></script>
+            
+      <style>
+        .site{
+                width: 1899px;
+                height:930px;
+                padding:0px;
+        }
+            .header{
+                width:1899px;
+                height:150px;
+                 padding:0px;
+                 background-color: #4B0082 ;
+            }
+            .main{
+                width:1899px;
+                height:700px;
+                background-color:  #8fbc8f ;
+            }
+            .centro{  
+                width:1300px;
+                height:700px; 
+                display:inline-block;
+                float:right;
+                background-color:#D8BFD8;
+            }
+            .esquerda{
+                width:300px;
+                height:700px;
+                display:inline-block;
+                float:right;
+                background-color: #9370DB ;
+        }
+        .esquerda1{
+            width:inherit ;
+            height: 33%;
+            background-color: #c114ec;
+        }
+        .esquerda2{
+            width: inherit;
+            height: 33%;
+            background-color:#a400f7 ;
+        }
+        .esquerda3{
+            width: inherit;
+            height: 33%;
+            background-color:#180224 ;
+        }
+         
+
+        .direita{
+            width: 300px;
+            height: 700px;
+            background-color: #9370DB;
+        }
+        .direita1{
+            width:inherit ;
+            height: 50%;
+            background-color: #BA55D3;
+        }
+
+        .direita2{
+            width: inherit;
+            height: 50%;
+            background-color:#9932CC ;
+        }
+
+        .footer{
+            width:1899px;
+            height:70px;
+            background-color:  #4B0082;
+        }               
+        
+        
+        </style>direita1
+    </head>
+    <body>
+        <div class="site">
+            <div class="header"> </div>
+            
+            <div class="main"> 
+                
+             <div class="esquerda">
+                   <div class="esquerda1"></div>
+                   <div class="esquerda2"></div>
+                   <div clas="esquerda3"></div>
+             </div>
+             
+          <div class="centro"></div>
+           
+          <div class="direita">
+                <div class="direita1"></div> 
+                
+                <div class="direita2"></div>
+            </div> 
+
+             
+            </div>
+
+      <div class="footer"></div>
+      
+    </div>
+    
+    
+  </body>
+  </html>
