@@ -21,44 +21,37 @@
                 width:1899px;
                 height:150px;
                  padding:0px;
-                 background-color: #4B0082 ;
+                 background-color: #7a04cf ;
             }
             .main{
                 width:1899px;
                 height:700px;
                 background-color:  #8fbc8f ;
             }
-            .centro{  
-                width:1300px;
-                height:700px; 
-                display:inline-block;
-                float:right;
-                background-color:#D8BFD8;
-            }
             .esquerda{
                 width:300px;
                 height:700px;
                 display:inline-block;
                 float:right;
-                background-color: #9370DB ;
-        }
-        .esquerda1{
-            width:inherit ;
+                background-color: #1cdf5d ;
+            }
+            .esquerda1{
+                width:inherit ;
+                height: 33%;
+                background-color: #1cdf5d;
+            }
+            .esquerda2{
+                width: inherit;
             height: 33%;
-            background-color: #c114ec;
-        }
-        .esquerda2{
-            width: inherit;
-            height: 33%;
-            background-color:#a400f7 ;
+            background-color:#44ee66 ;
         }
         .esquerda3{
             width: inherit;
-            height: 33%;
-            background-color:#180224 ;
+            height: 34%;
+            background-color:#32eb2f ;
         }
-         
-
+        
+        
         .direita{
             width: 300px;
             height: 700px;
@@ -67,37 +60,168 @@
         .direita1{
             width:inherit ;
             height: 50%;
-            background-color: #BA55D3;
+            background-color: #26ec36;
         }
-
+        
         .direita2{
             width: inherit;
             height: 50%;
-            background-color:#9932CC ;
+            background-color:#39f865 ;
         }
-
+        
         .footer{
             width:1899px;
             height:70px;
             background-color:  #4B0082;
         }               
-        
-        
-        </style>direita1
+        .cabeça1{
+            width:25% ;
+            height:inherit ;
+            background-color:rgba(57, 154, 9, 0.881) ;
+            float: initial;
+            display: inline-block;
+            
+        }
+        .cabeça2{
+            width: 25%;
+            height: inherit;
+            background-color:rgba(71, 207, 8, 0.807) ;
+            float: inline-start;
+            display: inline-block;    
+        }
+        .cabeça3{
+            width:25% ;
+            height: inherit;
+            background-color: rgba(151, 214, 24, 0.742);
+            float: inline-start;
+            display: inline-block;
+        }
+        .cabeça4{
+            width: 25%;
+            height: inherit;
+            background-color: rgb(9, 140, 51);
+            float: inline-start;
+            display: inline-block;
+        }
+        .pé1{
+            width: 25%;
+            height: inherit;
+            background-color:rgb(2, 121, 43);
+            float: inline-start;
+            display: inline-block;
+         }
+         .pé2{
+             width: 25%;
+             height: inherit;
+            background-color: rgba(30, 134, 14, 0.694);
+            float: inline-start;
+            display: inline-block;
+        }
+        .pé3{
+            width: 25%;
+            height: inherit;
+            background-color: rgba(9, 214, 16, 0.58);
+            float: inline-start;
+            display: inline-block;
+         }
+         .pé4{
+            width: 25%;
+            height: inherit;
+            background-color: rgba(0, 255, 34, 0.686);
+            float: inline-start;
+            display: inline-block;
+        }
+        .centro{  
+            width:1300px;
+            height:inherit; 
+            display:inline-block;
+            float:right;
+            background-color:#D8BFD8;
+        }
+    
+         .metadeA{
+             width: inherit;
+             height: 50%;
+             display: inline-block ;
+             float: right ;
+             background-color: rgb(225, 0, 255);
+            }
+        .metade1{
+            width: 50%;
+            height:100%;
+            display: inline-block;
+            float: inline-start;
+            background-color: #164a09db;
+        }
+        .metade2{
+            width: 50%;
+            height: 100%;
+            display: inline-block;
+            float: inline-start;
+            background-color: rgb(9, 92, 42);
+        }
+            
+         .metadeB{
+                width:100% ;
+                height: 100%;
+                background-color: rgb(238, 255, 0);  
+         }
+         .metade3{
+                width:34% ;
+                height: 50%;
+                background-color: rgb(11, 56, 3);  
+                display: inline-block;
+                float: right;
+         }
+         .metade4{
+                width:33% ;
+                height: 50%;
+                background-color: rgb(3, 84, 14);  
+                display: inline-block;
+                float:right;
+         }
+         .metade5{
+                width:33% ;
+                height: 50%;
+                background-color: rgb(3, 65, 8);  
+                display: inline-block;
+                float: right;
+         }
+            
+        </style>    
     </head>
     <body>
         <div class="site">
-            <div class="header"> </div>
-            
+            <div class="header"> 
+                <div class="cabeça1"></div>
+                <div class="cabeça2"></div>
+                <div class="cabeça3"></div>
+                <div class="cabeça4"></div>    
+            </div>
+              
             <div class="main"> 
                 
              <div class="esquerda">
                    <div class="esquerda1"></div>
                    <div class="esquerda2"></div>
-                   <div clas="esquerda3"></div>
+                   <div class="esquerda3"></div>
              </div>
              
-          <div class="centro"></div>
+          <div class="centro">
+            <div class="metadeA">
+
+                    <div class="metade1"></div>
+                    <div class="metade2"></div>
+
+            </div>
+            <div class="metadeB">
+
+                     <div class="metade3"></div>
+                     <div class="metade4"></div>
+                     <div class="metade5"></div>
+
+            </div>
+          </div>
            
           <div class="direita">
                 <div class="direita1"></div> 
@@ -108,7 +232,12 @@
              
             </div>
 
-      <div class="footer"></div>
+      <div class="footer">
+        <div class="pé1"></div>
+        <div class="pé2"></div>
+        <div class="pé3"></div>
+        <div class="pé4"></div>
+      </div>
       
     </div>
     
