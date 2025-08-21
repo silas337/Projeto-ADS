@@ -1,89 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+<head>
 
-    <head>
-      <div class="div4"></div> <http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-      <title>Projeto dos Fellas</title>
-      <link rel="stylesheet" type="text/css" href=""> 
-      <meta charset="UTF-8">
-      <script src="jQuery.js"></script>
-            
-      <style>
-        .style {
-           width: 1390px;
-           height:430px;
-           border: 5px solid rgb(0, 0, 0) ;
-           padding: 250px ;
-           position: absolute;
-           background-color: rgba(143, 6, 207, 0.862);
-           top: 50%;
-           left: 50%;
-           transform: translate(-50%,-50%);
-           border-radius: 15px;
-           background-image: linear-gradient(rgba(141, 8, 202, 0.633),rgba(8, 197, 8, 0.69));
-        }
-      
-        .cabeça{
-             width:1900px;
-                height:200px;
-                border:2px solid rgb(8, 159, 247);
-                padding:0px;
-                margin-left:;
-        } 
-
-         .joelho{
-           width: 1700px;
-           height:720px;
-           border:2px solid rgb(14, 172, 14);
-           padding: 660;
-           margin-left: -200px;
-         }
-
-         .epé{
-          width: 2200px;
-           height:120px;
-           border:90px solid rgb(17, 14, 172);
-           padding: 0;
-           margin-left: -200px;
-          }  
-                                                     
-        .esquerda{
-          width: 150px;
-           height: 720px;
-           border: 2px solid rgb(212, 76, 212);
-           padding: 0; 
-           margin-left: -0px;
-        }
-        .centro{    
-          width: 1900px;
-          height: 200px;
-          border: 2px solid rgb(230, 6, 6);
-          padding: 0px;
-        }
-
-
-
-      </style>
-    </head>
+    <title>   </title>
+    <link rel="stylesheet" type="text/css" href="">
+    <meta charset="UTF-8">
+    <script src="jquery.js"></script>
+</head>
 <body>
-  <div class="style">
-      <div class="cabeça"> </div>
-
-      <div class="joelho"> 
-      
-      <div class="esquerda"></div>
-        <div class="centro"></div>
-        <div class="direita"></div>
-        
-        </div>
-
-      <div class="pé"></div>
-      
-      <div class=""></div>
-    </div>
+    <ul>
+        <li><a href="calculadora.html">calculadora</a></li></br>
+        <li><a href="index_html">index</a></li></br>
+         <li><a href="sintaxe_basica.html">sintaxe basica</a></li></br>
+         <li><a href="template2.html">ctemplate</a></li></br>
+    </ul>
     
-    
-  </body>
-  </html>
+</body>
+</html>
